@@ -1,0 +1,9 @@
+name: nameWF
+on: workflow_dispatch
+jobs: 
+  print_st:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print to console
+        run: hello git hub world! 
+      
