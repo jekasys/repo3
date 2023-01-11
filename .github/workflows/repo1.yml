@@ -8,4 +8,10 @@ jobs:
         run: echo hello git hub world! 
       - name: Print again
         run: echo hello again
-      
+  print_st2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print to another
+        run: echo goodbye! 
+      - name: Print another 2
+        run: echo goodbye1111!     
