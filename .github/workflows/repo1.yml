@@ -5,5 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print to console
-        run: hello git hub world! 
+        run: echo hello git hub world! 
+      - name: Print again
+        run: echo hello again
       
